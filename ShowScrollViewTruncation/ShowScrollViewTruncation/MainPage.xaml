@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShowScrollViewTruncation.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
+            <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+            <Label FontSize="16" Padding="30,24,30,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Learn more at "/>
+                            <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+
+            <!--<Image Source="{StaticResource BigHome}" />-->
+            <Image Source="https://aka.ms/campus.jpg" />
+
+            <Frame BorderColor="Gray" Margin="8" >
+                <StackLayout>
+                    <Label Text=".1." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".2." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".3." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".4." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".5." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".6." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".7." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".8." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".9." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".10." FontSize="Title" Padding="30,10,30,10"/>
+                </StackLayout>
+            </Frame>
+
+            <Label Text="---" FontSize="Title" Padding="30,10,30,10"/>
+            <Frame BorderColor="Gray" Margin="8">
+                <StackLayout>
+                    <Label Text=".11." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".12." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".13." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".14." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".15." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".16." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".17." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".18." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".19." FontSize="Title" Padding="30,10,30,10"/>
+                    <Label Text=".20." FontSize="Title" Padding="30,10,30,10"/>
+                </StackLayout>
+            </Frame>
+
+            <Label Text="END" FontSize="Title" Padding="30,10,30,10"/>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
